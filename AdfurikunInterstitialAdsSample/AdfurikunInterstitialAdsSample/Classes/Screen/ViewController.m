@@ -24,6 +24,14 @@
     [self setAdfurikunIntersAd];
 }
 
+- (void)viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:animated];
+    
+    // アドフリくんのインターステシャル広告削除
+    [self removeAdfurikunIntersAd];
+}
+
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
