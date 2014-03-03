@@ -47,7 +47,7 @@
 {
     _adPopupView = [[AdfurikunPopupView alloc] init];
     _adPopupView.delegate = self;
-    _adPopupView.appId = @"53089226bb323cc56d000010";
+    _adPopupView.appId = @"ここにアドフリくんで取得した「広告枠 ID」を入力してください";
     
     // テストモード
     //[_adPopupView testModeEnable];
